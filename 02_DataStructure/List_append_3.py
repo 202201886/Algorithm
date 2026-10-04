@@ -1,5 +1,5 @@
-a = [1,2,3]
+a = [[1,2],[3,4]]
 b = a[:]
-b.append(5)
-print('a: ', a)
-print('b: ', b)
+b.append(5) 
+print('a: ', a)  #a: [[1, 2], [3, 4]]
+print('b: ', b)  #b: [[1, 2], [3, 4], 5]
