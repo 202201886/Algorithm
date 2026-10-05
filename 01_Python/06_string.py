@@ -22,7 +22,13 @@ s.find("Python")  # 21 (if not found, returns -1)
 s.upper()  # 'THIS IS THE CLASS OF PYTHON PROGRAMMING!'
 s.lower()  # 'this is the class of python programming!' 
 
+#string split
 a = "Hello World Python is Fun!!"
 words = a.split()  # ['Hello', 'World', 'Python', 'is', 'Fun!!']
 b = '123.0\t12.99\t78.12\t-0.345'
 nums = b.split('\t')  # ['123.0', '12.99', '78.12', '-0.345']
+
+#string join
+a = ['Hello', 'World', 'Python', 'programming']
+x = ' '.join(a)
+print(x)  # Hello World Python programming
