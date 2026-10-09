@@ -27,4 +27,8 @@ set1.clear()  #set1 = {}
 lst = [1, 2, 3, 2, 1, 5, 4, 1, 3, 2, 4, 5, 1, 2, 4, 5, 2]
 lst_result = list(set(lst))
 print(lst_result)  -> not allow duplicate values
+
+list -> []
+set -> {}
+tuple -> () 
 """

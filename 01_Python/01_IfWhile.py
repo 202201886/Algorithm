@@ -10,3 +10,8 @@ elif score >= 60 and score < 70 :
      print("Grade: D")
 else :
      print("Grade: F")
+
+a = 1
+while a<= 10:
+     print(a*a)
+     a+=1     
