@@ -14,4 +14,4 @@ tup[0][0] = 300
 
 message = "Welcome to Python!"
 message[0] = 'p'
-print(message)  # Error: 'str' object can't be modified
+print(message)  # Error: 'str' instance can't be modified
