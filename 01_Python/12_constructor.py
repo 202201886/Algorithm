@@ -35,8 +35,14 @@ class Point:
     def __add__(self, other):  #self -> p1, other -> p2
         x = self.x + other.x
         y = self.y + other.y
-        return Point(x, y)  #making a new instance 
+        return Point(x, y)  #making a new instance
+    
+    def __eq__(self, other):
+        return self.x == other.x and self.y == other.y
 
 p1 = Point(2,3)
 p2 = Point(-1,2)
-print(p1 + p2)  #(1,5)
+p3 = Point(-1,2)
+
+print(p1 + p2)  #(1,5)  
+print(p2 == p3)  #True
