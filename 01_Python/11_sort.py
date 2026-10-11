@@ -10,3 +10,5 @@ print(sorted(mylist, reverse=True))
 
 print(sorted(mylist, key=lambda x:x[1]))  # sorted by index1
 print(sorted(mylist, key=lambda x:len(x[0])))  #sorted by length of index0
+print(mylist.sort(reverse=True))  #None
+print(mylist.sort(key = lambda x:x[0]))  #None
