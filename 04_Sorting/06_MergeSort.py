@@ -1,4 +1,4 @@
-def merge_sort(arr):
+def merge_sort(arr):  #O(nlogn)
 
     if len(arr) <= 1: 
         return arr

@@ -1,4 +1,4 @@
-def insertion_sort2(arr, i=1):
+def insertion_sort2(arr, i=1):  #O(n^2)
     if i >= len(arr):
         return arr
 
