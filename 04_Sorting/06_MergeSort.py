@@ -18,7 +18,6 @@ def merge_sort(arr):  #O(nlogn)
 
     return result + left + right
 
-
 word = list('algorithm')
 result = merge_sort(word)
 print(''.join(result))
