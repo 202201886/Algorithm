@@ -1,4 +1,4 @@
-def selection_sort(arr):
+def selection_sort(arr):  #O(n^2)
      n = len(arr)
      
      for i in range(n): #i = 0~8
