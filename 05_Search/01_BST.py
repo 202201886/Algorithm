@@ -55,7 +55,7 @@ class BST:
         self.inorder_recursive(self.root)
         print()
 
-    def inorder_recursive(self, node):
+    def inorder_recursive(self, node):  # visit left, root, and right
         if node is not None:
             self.inorder_recursive(node.left)
             print(node.key, end=' ')
