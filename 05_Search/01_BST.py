@@ -1,6 +1,6 @@
 class TreeNode:
     def __init__(self, key): 
-        self.val = key
+        self.key = key
         self.left = None
         self.right = None
 
@@ -21,6 +21,9 @@ class BST:
             node.right = self.insert_recursive(node.right, key)
         return node  # duplicate key is not inserted in the BST
 
+    def delete(self, key):
+        self.root = self.delete_recursive(self.root, key)
+        
     def delete_recursive(self, node, key):
         if node is None:  # key not found in the tree
             return node
