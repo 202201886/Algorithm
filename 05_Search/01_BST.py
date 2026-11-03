@@ -23,7 +23,7 @@ class BST:
 
     def delete(self, key):
         self.root = self.delete_recursive(self.root, key)
-        
+
     def delete_recursive(self, node, key):
         if node is None:  # key not found in the tree
             return node
@@ -47,7 +47,7 @@ class BST:
         return node    
 
     def find_min(self, node):
-        while node.left is not None: #안 나올 때까지 왼쪽 자식으로 내려가기
+        while node.left is not None: # go left until None is found
             node = node.left   
         return node
 
