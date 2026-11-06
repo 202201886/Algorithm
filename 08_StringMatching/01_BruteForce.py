@@ -1,4 +1,4 @@
-def brute_force(text, pattern, start=0):
+def brute_force(text, pattern, start=0):  # check possible position
     for i in range(start, len(text) - len(pattern) + 1):
         j = 0
 
@@ -10,8 +10,7 @@ def brute_force(text, pattern, start=0):
         if j == len(pattern):
             return i
 
-    return -1
-
+    return -1  # the pattern is not found
 
 text = "HELLO WORLD"
 pattern = "WORLD"
